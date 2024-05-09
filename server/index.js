@@ -14,10 +14,6 @@ const port = 3000
 // allow static assets in public folder
 app.use(express.static('public'))
 
-// const root = require('path').join(__dirname, '../client', 'dist')
-// app.use(express.static(root))
-//
-
 const root = require('path').join(__dirname, '../client', 'dist')
 app.use(express.static(root))
 
